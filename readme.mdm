@@ -1,7 +1,8 @@
 # Arbiter Design README
 
 ## Overview
-The arbiter is a hardware component responsible for arbitrating between multiple competing requests for a shared resource. It determines the order in which requests are granted access to the resource based on predefined priority or fairness criteria. 
+The arbiter is a hardware component responsible for arbitrating between multiple competing requests for a shared resource. 
+This repository contains an arbiter module implemented in SystemVerilog, accompanied by a comprehensive testbench and an interface top-level design. The arbiter module is designed to arbitrate between multiple request signals and grant access to a shared resource based on a priority scheme.
 
 ## Features
 - Prioritized arbitration of requests
