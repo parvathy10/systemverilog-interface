@@ -1,21 +1,21 @@
 # Arbiter Design README
 
-## Overview
+## Overview..
 The arbiter is a hardware component responsible for arbitrating between multiple competing requests for a shared resource. 
 This repository contains an arbiter module implemented in SystemVerilog, accompanied by a comprehensive testbench and an interface top-level design. The arbiter module is designed to arbitrate between multiple request signals and grant access to a shared resource based on a priority scheme.
 
-## Features
+## Features..
 - Prioritized arbitration of requests
 - Support for multiple request inputs and a single grant output
 - Configurable arbitration policies 
 - Scalable design for large-scale systems
 
-## Getting Started
+## Getting Started..
 To get started with the arbiter project, follow these steps:
 1 Install any dependencies required for building or simulating the arbiter.
 2. Set up the development environment according to the provided instructions.
 
-## Usage
+## Usage..
 To use the arbiter in your hardware design, follow these instructions:
 1. Instantiate the arbiter module in your Verilog/VHDL code.
 2. Connect the request inputs and grant output to other components in your system.
